@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">MoveMemory</string>
+    <string name="title_activity_register_movie">RegisterMovie</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="hibtYear">YYYY</string>
+    <string name="actors_names">Actors names</string>
+    <string name="review_about_movie">Review About movie</string>
+    <string name="review">Review</string>
+    <string name="actors_actresses">Actors/Actresses</string>
+    <string name="year">Year</string>
+    <string name="title">Title</string>
+    <string name="name_of_the_director">Name of the Director</string>
+    <string name="director">Director</string>
+    <string name="title_of_the_movie">Title Of the Movie</string>
+    <string name="rating">Rating</string>
+    <string name="_1_10">1-10</string>
+    <string name="save">SAVE</string>
+    <string name="search">Search</string>
+    <string name="favourites">Favourites</string>
+    <string name="display_movies">Display Movies</string>
+    <string name="edit_movies">Edit Movies</string>
+    <string name="ratings">Ratings</string>
+    <string name="register_movie">Register Movie</string>
+    <string name="title_activity_display_movie">DisplayMovie</string>
+    <string name="title_activity_favourite_movie">FavouriteMovie</string>
+    <string name="title_activity_edit_movie">EditMovie</string>
+    <string name="title_activity_up_date">UpDate</string>
+    <string name="update">UPDATE</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_search_result">SearchResult</string>
+    <string name="title_activity_rating">Rating</string>
+    <string name="title_activity_rating_update">RatingUpdate</string>
+
+</resources>

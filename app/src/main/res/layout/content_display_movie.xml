@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dsplyb"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <Button
+        android:id="@+id/btnAddfavourites"
+        android:layout_width="248dp"
+        android:layout_height="94dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/btn"
+        android:onClick="btnFavouritesOnClick"
+        android:text="Add to Favourites"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="@android:color/transparent"
+        app:backgroundTintMode="add"
+        app:iconTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ListView
+        android:id="@+id/movieList"
+        android:layout_width="354dp"
+        android:layout_height="383dp"
+        android:background="@android:color/transparent"
+        android:choiceMode="multipleChoice"
+        android:textFilterEnabled="false"
+        app:layout_constraintBottom_toTopOf="@+id/btnAddfavourites"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.304"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
